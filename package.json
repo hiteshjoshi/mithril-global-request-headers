@@ -1,0 +1,8 @@
+{
+  "name": "mithril-global-request-headers",
+  "version": "0.0.1",
+  "description": "A simple module for adding global headers to xhr in mithril",
+  "main": "index.js",
+  "author": "Bryce Gibson <bryce.gibson@unico.com.au>",
+  "license": "ISC"
+}
