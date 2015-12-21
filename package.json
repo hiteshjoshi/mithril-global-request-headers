@@ -4,5 +4,15 @@
   "description": "A simple module for adding global headers to xhr in mithril",
   "main": "index.js",
   "author": "Bryce Gibson <bryce.gibson@unico.com.au>",
-  "license": "ISC"
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/bryce-gibson/mithril-global-request-headers.git"
+  },
+  "keywords": [
+    "mithril"
+  ],
+  "peerDependencies": {
+    "mithril": "*"
+  }
 }
