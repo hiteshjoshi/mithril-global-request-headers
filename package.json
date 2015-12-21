@@ -5,6 +5,9 @@
   "main": "index.js",
   "author": "Bryce Gibson <bryce.gibson@unico.com.au>",
   "license": "ISC",
+  "scripts": {
+    "test": "mocha"
+  },
   "repository": {
     "type": "git",
     "url": "https://github.com/bryce-gibson/mithril-global-request-headers.git"
@@ -14,5 +17,10 @@
   ],
   "peerDependencies": {
     "mithril": "*"
+  },
+  "devDependencies": {
+    "chai": "3.4.1",
+    "mithril": "*",
+    "mocha": "2.3.4"
   }
 }
