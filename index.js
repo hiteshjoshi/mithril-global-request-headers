@@ -9,7 +9,7 @@ module.exports = function(m) {
     var config = options.config || noop
     if(options.disableGlobalHeaders) return request.apply(this, arguments)
     options.config = function() {
-      getAddGlobalHeaderToRequest.apply(this, arguments)
+      addGlobalHeaders.apply(this, arguments)
       return config.apply(this, arguments)
     }
     return request.apply(this, arguments)
